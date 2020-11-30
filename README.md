@@ -9,7 +9,8 @@ A dotfiles configuration for my environment including
 
 Dotfiles uses [Dotbot][dotbot] for installation.
 
-Inspired by anishathalye's [dotfiles](github.com/anishathalye/dotfiles) 
+Inspired by anishathalye's [dotfiles](https://github.com/anishathalye/dotfiles)
+
 License
 -------
 
