@@ -11,5 +11,6 @@
     ~/.bashrc: bashrc
     ~/.arm:
     ~/.zsh:
+    ~/.bash:
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
