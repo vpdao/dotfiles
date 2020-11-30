@@ -11,8 +11,10 @@
 " `vim -u foo`).
 set nocompatible
 
+execute pathogen#infect()
 " Turn on syntax highlighting.
 syntax on
+filetype plugin indent on
 
 " Show matching braces when text indicator is over them"
 set showmatch
