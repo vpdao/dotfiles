@@ -13,5 +13,7 @@
     ~/.zsh:
     ~/.bash:
     ~/.tmux.conf: tmux.conf
+    ~/.gitignore_global:
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
