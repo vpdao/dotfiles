@@ -198,3 +198,9 @@ let g:markdown_fenced_languages = [
 \]
 let g:markdown_syntax_conceal = 0
 let g:markdown_folding = 1
+
+" Local customization in ~/.vimrc_local
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+    source $LOCALFILE
+endif
