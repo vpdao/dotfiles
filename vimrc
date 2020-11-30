@@ -14,6 +14,9 @@ set nocompatible
 " Turn on syntax highlighting.
 syntax on
 
+" Show matching braces when text indicator is over them"
+set showmatch
+
 " Disable the default Vim startup message.
 set shortmess+=I
 
@@ -50,6 +53,12 @@ endif
 filetype plugin indent on " enable file type detection
 set autoindent
 
+"--------------
+" Basic editing config
+" --------------------
+
+" Disable startup message "
+set shortmess+=I
 " Show line numbers.
 set number
 
@@ -86,6 +95,45 @@ set smartcase
 " Enable searching as you type, rather than waiting till you press enter.
 set incsearch
 
+" Highlight search "
+set hls
+
+" Set list to see tabs and non-breakable spaces "
+set listchars=tab:>>,nbsp:~
+
+" Line break "
+set lbr
+
+" Show lines above and below cursor (when possible)
+set scrolloff=5
+
+" hide mode "
+set noshowmode
+
+" Fix slow 0 inserts "
+set timeout timeoutlen=1000 ttimeoutlen=100
+
+" Skip redrawing screen in some cases"
+set lazyredraw
+
+" Automatically set current directory to directory of last opened file "
+set autochdir
+
+" More history "
+set history=8192
+
+" Suppress inserting two spaces between sentences "
+set nojoinspaces
+
+" Use 4 spaces instead of tabs during formatting "
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+" Tab completion for files/buffers"
+set wildmode=longest,list
+set wildmenu
 " Unbind some useless/annoying default key bindings.
 nmap Q <Nop> " 'Q' in normal mode enters Ex mode. You almost never want this.
 
@@ -95,6 +143,28 @@ set noerrorbells visualbell t_vb=
 " Enable mouse support. You should avoid relying on this too much, but it can
 " sometimes be convenient.
 set mouse+=a
+
+"--------------------
+" Misc configurations
+"--------------------
+
+" unbind keys
+map <C-a> <Nop>
+map <C-x> <Nop>
+nmap Q <Nop>
+
+" disable audible bell
+set noerrorbells visualbell t_vb=
+
+" open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
+
+" quicker window movement
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
 
 " Try to prevent bad habits like using the arrow keys for movement. This is
 " not the only possible bad habit. For example, holding down the h/j/k/l keys
