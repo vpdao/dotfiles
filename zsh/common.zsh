@@ -15,7 +15,10 @@ fi
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 POWERLEVEL9K_MOE='nerdfont-complete'
 ZSH_THEME="powerlevel9k/powerlevel9k"
-
+POWERLEVEL9K_DISABLE_RPROMPT=true
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=">"
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 # The following can take effect without comment:
 # Start error command automatic correction
 ENABLE_CORRECTION="true"
