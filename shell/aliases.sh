@@ -21,3 +21,5 @@ alias gd='git diff'
 alias ga='git add'
 alias gr='git rebase'
 
+# fd alias
+alias fd='fdfind'
