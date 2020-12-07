@@ -52,3 +52,4 @@ bindkey "^R" history-incremental-search-backward
 
 # Disable shell builtins
 disable r
+
