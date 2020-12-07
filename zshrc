@@ -1,3 +1,9 @@
+# Export zsh themes configuration
+source ~/.zsh/plugins.zsh
+
+# Export zsh plugins configuration
+source ~/.zsh/themes.zsh
+
 # Export common zsh configuration
 source ~/.zsh/common.zsh
 
@@ -10,6 +16,9 @@ source ~/.shell/aliases.sh
 # Export configuration for zshrc
 source ~/.zsh/settings.zsh
 
+# Export configuration for valgrind
+source ~/.zsh/valgrind.zsh
+
 # Allow local customization in the ~/.shell_local
 if [ -f ~/.shell_local ]; then
     source ~/.shell_local
@@ -19,3 +28,4 @@ fi
 if [ -f ~/.zshrc_local ]; then
     source ~/.zshrc_local
 fi
+
