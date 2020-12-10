@@ -19,6 +19,9 @@ source ~/.zsh/settings.zsh
 # Export configuration for valgrind
 source ~/.zsh/valgrind.zsh
 
+# Export configuration for rust
+source ~/.zsh/rust.zsh
+
 # Allow local customization in the ~/.shell_local
 if [ -f ~/.shell_local ]; then
     source ~/.shell_local
