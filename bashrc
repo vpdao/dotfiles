@@ -16,3 +16,4 @@ fi
 if [ -f ~/.bashrc_local ]; then
     source ~/.bashrc_local
 fi
+source "$HOME/.cargo/env"
