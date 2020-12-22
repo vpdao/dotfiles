@@ -132,6 +132,9 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+" Set number of columns in on vim page
+set colorcolumn=80
+set textwidth=80
 
 " Tab completion for files/buffers"
 set wildmode=longest,list
