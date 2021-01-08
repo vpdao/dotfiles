@@ -9,6 +9,7 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.bashrc: bashrc
+    ~/.zephyrrc: zephyrrc
     ~/.arm:
     ~/.zsh:
     ~/.bash:
